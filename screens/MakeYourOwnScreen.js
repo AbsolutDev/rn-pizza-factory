@@ -122,7 +122,7 @@ export const MakeYourOwnScreen = (props) => {
         }
         break;
       case 5:
-        scrollView.scrollToEnd();
+        //ScrollView.scrollToEnd();
         //Calculate total price
         const price =
           DATA.sizes[productSize.selectedSize].price +
